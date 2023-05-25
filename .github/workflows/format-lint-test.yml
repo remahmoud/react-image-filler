@@ -1,0 +1,21 @@
+name: Format & Lint & Test
+
+on:
+  release:
+    types: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: yarn
+      - name: Format
+        run: yarn format
+      - name: Lint
+        run: yarn lint
+      - name: Test
+        run: yarn test
