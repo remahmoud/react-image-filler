@@ -63,5 +63,5 @@ export default function Placeholder({
         }
     }, [width, height, background, color, text])
 
-    return <img src={src} width={width} height={height} {...props} />
+    return <img src={src} width={width} height={height} alt={text} {...props} />
 }
