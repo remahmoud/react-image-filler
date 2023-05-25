@@ -10,6 +10,14 @@ npm install react-image-filler --save
 
 ```
 
+### or
+
+```bash
+
+yarn add react-image-filler
+
+```
+
 ## Usage
 
 ```jsx
@@ -30,6 +38,9 @@ const App = () => {
 | --- | --- | --- | --- |
 | `width` | number | 100 | Width of the image |
 | `height` | number | 100 | Height of the image |
+| `text` | string | Placeholder | text of the image |
+| `color` | string | #6a6a6a | text color of the image |
+| `background` | string | #dddddd | background color of the image |
 
 ## Contributing
 
@@ -46,7 +57,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Author
 
-- [Mahmoud Ibrahiam](https://www.linkedin.com/in/mahmoud-ibrahiam) - Frontend Developer
+- [Mahmoud Ibrahiam](https://www.linkedin.com/in/mahmoud-ibrahiam) - **Frontend Developer**
 
 ### If you like this package, please leave a star.
 
