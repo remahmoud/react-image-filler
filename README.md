@@ -1,4 +1,8 @@
+
+
 # React Image Filler
+
+![react-image-filler](./preview.png)
 
 react-image-filler is a React component that return placeholder image with given width and height.
 
