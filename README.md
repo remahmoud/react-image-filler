@@ -4,22 +4,20 @@
 
 ![react-image-filler](./preview.png)
 
-react-image-filler is a React component that return placeholder image with given width and height.
+React Image Filler is a handy React component that allows you to generate placeholder images with customizable properties such as width, height, text, color, and background color. This is particularly useful in scenarios where you need to reserve space for images that are yet to load or are optional.
+
+Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [API](#api)
+4. [Contributing](#contributing)
 
 ## Installation
 
 ```bash
-
 npm install react-image-filler --save
-
-```
-
-### or
-
-```bash
-
+# or
 yarn add react-image-filler
-
 ```
 
 ## Usage
@@ -36,7 +34,7 @@ const App = () => {
 }
 ```
 
-## Props
+## API
 
 | Prop | Type | Default | Description |
 | --- | --- | --- | --- |
